@@ -16,7 +16,7 @@ def resize_video_with_background(input_video_path, output_video_path, output_siz
         output_fps = fps
 
     # 출력 비디오 설정
-    fourcc = cv2.VideoWriter_fourcc(*'XVID')
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     out = cv2.VideoWriter(output_video_path, fourcc, output_fps, output_size)
 
     while cap.isOpened():
@@ -49,5 +49,4 @@ def resize_video_with_background(input_video_path, output_video_path, output_siz
     cap.release()
     out.release()
     
-# 사용 예시 (지정된 길이 있는 경우, 예: 10초)
 resize_video_with_background('images/mcdropout.mp4', 'images/mcdropout_reshaped.mp4', duration=5)
