@@ -129,20 +129,3 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
-
-.news-item {
-  display: flex;
-  align-items: flex-start;
-  margin: 0;
-  padding: 0;
-}
-
-.date {
-  white-space: nowrap;
-  flex-shrink: 0; /* 날짜의 크기가 줄어들지 않도록 설정 */
-  margin-right: 0.5em; /* 날짜와 내용 사이의 간격 조정 */
-}
-
-.description {
-  white-space: pre-wrap; /* 내용이 영역을 넘어가면 다음 줄로 넘기도록 설정 */
-}
