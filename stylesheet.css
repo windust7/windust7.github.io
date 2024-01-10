@@ -129,16 +129,3 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
-
-.news-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-
-.news-item strong {
-    margin-right: 10px; /* Adjust the spacing between the date and the text as needed */
-}
-
