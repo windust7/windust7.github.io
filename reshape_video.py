@@ -50,4 +50,4 @@ def resize_video_with_background(input_video_path, output_video_path, output_siz
     out.release()
     
 # 사용 예시 (지정된 길이 있는 경우, 예: 10초)
-resize_video_with_background('images/mcdropout.mp4', 'images/mcdropout_reshaped.mp4', duration=10)
+resize_video_with_background('images/mcdropout.mp4', 'images/mcdropout_reshaped.mp4', duration=5)
