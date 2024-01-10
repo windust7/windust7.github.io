@@ -129,3 +129,15 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.news-item {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.news-item strong {
+    margin-right: 10px !important;
+}
