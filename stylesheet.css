@@ -131,13 +131,17 @@ span.highlight {
 }
 
 .news-item {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-.news-item strong {
-    margin-right: 10px !important;
+.date {
+  white-space: nowrap;
+  margin-right: 10px; /* 오른쪽 여백 조정 */
+}
+
+.description {
+  white-space: pre-wrap; /* 텍스트가 영역을 넘어가면 다음 줄로 넘기도록 설정 */
 }
