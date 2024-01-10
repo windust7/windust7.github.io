@@ -129,3 +129,8 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.news-item::before {
+    content: ": ";
+    white-space: pre-wrap;
+}
