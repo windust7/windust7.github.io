@@ -129,3 +129,16 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.paper {
+  color: red;
+}
+.project {
+  color: blue;
+}
+.award {
+  color: green;
+}
+.other {
+  color: gray;
+}
