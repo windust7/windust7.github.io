@@ -132,13 +132,22 @@ span.highlight {
 
 .paper {
   color: red;
+  font-weight: bold;
+}
+.highlightpaper {
+  color: red;
+  font-weight: bold;
+  background-color: #ffffd0;
 }
 .project {
   color: blue;
+  font-weight: bold;
 }
 .award {
   color: green;
+  font-weight: bold;
 }
 .other {
   color: gray;
+  font-weight: bold;
 }
