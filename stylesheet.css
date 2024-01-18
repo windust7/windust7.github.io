@@ -134,19 +134,9 @@ span.highlight {
   color: red;
   font-weight: bold;
 }
-.highlightpaper {
-  color: red;
-  font-weight: bold;
-  background-color: #ffffd0;
-}
 .project {
   color: blue;
   font-weight: bold;
-}
-.highlightproject {
-  color: blue;
-  font-weight: bold;
-  background-color: #ffffd0;
 }
 .award {
   color: green;
