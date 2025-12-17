@@ -161,8 +161,8 @@ span.highlight {
   img.hoverZoomLink {
     display: block;
     margin: 0 auto;
-    width: 50%;
-    max-width: none;
+    width: 50% !important;
+    max-width: 50% !important;
     height: auto;
   }
 }
