@@ -146,3 +146,21 @@ span.highlight {
   color: gray;
   font-weight: bold;
 }
+
+/* 모바일 대응: 프로필 영역 세로 배치 (텍스트 100% 위, 사진 아래) */
+@media (max-width: 768px) {
+  /* 모든 셀을 한 줄씩 세로로 배치 */
+  td {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* 프로필 사진은 너무 커지지 않게 중앙 정렬 + 적당한 너비 */
+  img.hoverZoomLink {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 300px;
+  }
+}
